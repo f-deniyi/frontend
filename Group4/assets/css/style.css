@@ -1,1 +1,53 @@
 
+*{
+  box-sizing: border-box;
+}
+.text-center{
+  text-align:center;
+}
+.main{
+  margin: auto;
+  width: 90%;;
+}
+
+.border{
+  border:#EB392E solid 4px;
+  width:52px;
+  margin: auto;
+}
+.about-us-container{
+  display:flex;
+justify-content: space-between;
+}
+
+button{
+  background-color:#EB392E;
+  color:white;
+  padding:1em;
+}
+.gallery-container{
+display: flex;
+flex-wrap: wrap;
+justify-content:center;
+}
+.testimonial{
+  position:relative;
+}
+.slide{
+  display:none;
+}
+.active-slide{
+  display:block;
+}
+.prev, .next {
+  cursor: pointer;
+}
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  margin: 0 2px;
+  background-color: #bbb;
+  display: inline-block;
+}
